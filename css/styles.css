@@ -8,6 +8,15 @@
 
 @media only screen and (min-width: 0px) and (max-width: 920px){
 
+    @keyframes aparecer{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
     .grilla{
         margin: 0;
         display: grid;
@@ -19,6 +28,9 @@
         grid-template-columns: 50% 50%;
         row-gap: 20px;
         height: 100vh;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: initial;
     }
     
     header{
@@ -121,13 +133,7 @@
         overflow: hidden;
         margin: 30px;
     }
-    
-    .tarjeta:hover{
-        transform: translateY(-15px);
-        transition-duration: 0.5s;
-        box-shadow: 10px 10px 10px #cab882;
-    }
-    
+
     .tarjeta__img{
         width: 280px;
         height: 180px;
@@ -214,7 +220,6 @@
         border-width: 1px;
         box-shadow: 3px 3px 15px #cab882;
         border-radius: 5px;
-        transform: translateX(12%);
     }
 
     .contacto{
@@ -274,12 +279,17 @@
     }
 }
 
-
-
-
-
-
 @media only screen and (min-width: 768px){
+
+    @keyframes aparecer{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
     .grilla{
         margin: 0;
         display: grid;
@@ -291,6 +301,9 @@
         grid-template-columns: 1fr 2fr;
         row-gap: 40px;
         height: 100vh;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: initial;
     }
     
     header{
@@ -398,7 +411,7 @@
         width: 98% ;
         height: 350px;
     }
-    
+
     .contenedor{ 
         justify-content: center;
         display: flex;
