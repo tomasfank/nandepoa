@@ -8,7 +8,7 @@
 
 @media only screen and (min-width: 0px) and (max-width: 920px){
 
-    .grid{
+    .grilla{
         margin: 0;
         display: grid;
         grid-template-areas: 
@@ -109,7 +109,7 @@
         align-items: center;
     }
     
-    .card{
+    .tarjeta{
         width: 300px;
         height: 420px;
         border-radius: 5px;
@@ -122,25 +122,25 @@
         margin: 30px;
     }
     
-    .card:hover{
+    .tarjeta:hover{
         transform: translateY(-15px);
         transition-duration: 0.5s;
         box-shadow: 10px 10px 10px #cab882;
     }
     
-    .card__img{
+    .tarjeta__img{
         width: 280px;
         height: 180px;
     }
     
-    .card__title{
+    .tarjeta__titulo{
         color: #2B5E32;
         text-shadow: 2px 2px 2px #2b5e325d;
         font-family: 'Short Stack', cursive;
         margin: 10px 0px 10px 0px;
     }
     
-    .card__text{
+    .tarjeta__texto{
         margin: 10px;
         padding: 0px 10px 10px 10px;
         text-align: justify;
@@ -280,7 +280,7 @@
 
 
 @media only screen and (min-width: 768px){
-    .grid{
+    .grilla{
         margin: 0;
         display: grid;
         grid-template-areas: 
@@ -405,7 +405,7 @@
         flex-direction: row;
     }
     
-    .card{
+    .tarjeta{
         width: 350px;
         height: 480px;
         border-radius: 5px;
@@ -418,25 +418,25 @@
         margin: 30px;
     }
     
-    .card:hover{
+    .tarjeta:hover{
         transform: translateY(-15px);
         transition-duration: 0.5s;
         box-shadow: 10px 10px 10px #cab882;
     }
     
-    .card__img{
+    .tarjeta__img{
         width: 320px;
         height: 250px;
     }
     
-    .card__title{
+    .tarjeta__titulo{
         color: #2B5E32;
         text-shadow: 2px 2px 2px #2b5e325d;
         font-family: 'Short Stack', cursive;
         margin: 10px 0px 10px 0px;
     }
     
-    .card__text{
+    .tarjeta__texto{
         margin: 10px;
         padding: 0px 10px 10px 10px;
         text-align: justify;
