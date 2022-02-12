@@ -5,66 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ñande Poâ - Contacto</title>
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.css"> 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="assets/img/favicon.jpg">
 </head>
 
 <body>
-    <div class="grilla">
-        <header>
-            <div class="header__logo">
-                <a href="index.html"><img src="assets/img/portada.jpeg" alt="logo"></a>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container-fluid" style="background-color: #DFD8C3;">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/portada.jpeg" alt="portada" width="300" height="180">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                      </li>
+                    </ul>
+                </div>
             </div>
-        </header>
-
-        <nav>
-            <ul>
-                <li><a href="nosotros.html">NOSOTROS</a></li>
-                <li><a href="productos.html">PRODUCTOS</a></li>
-                <li><a href="tienda.html">TIENDA</a></li>
-                <li><a href="#">CONTACTO</a></li>
-            </ul>
         </nav>
+    </header> 
+
+    <main>
+        <h1 class="main__title">Ñande Poâ - Productos Orgánicos y Biodinámicos</h1>
         
-        <main>
-            <h1 class="main__title">Ñande Poâ - Productos Orgánicos y Biodinámicos</h1>
-            
-            <p class="text"><span>-Correo:</span> micorreo@correo.com</p>        
-            <p class="text"><span>-Teléfono:</span> 3333-333333</p>
-            
-            <h2 id="contactoh2">También podes escribirnos a través de este formulario:</h2>
-
-            <section class="form">
-                <form action="" class="contacto">
-                    <label for="nombres">Nombre y Apellido</label>   
-                    <input type="text" name="nombres" id="nombres"> 
-
-                    <label for="correo">Correo electrónico</label>     
-                    <input type="email" name="correo" id="correo">    
-
-                    <label for="nombres">Celular</label>
-                    <input type="text" name="celular" id="celular">
-                     
-                    <label for="asunto">Asunto</label>  
-                    <input type="text"> 
-                       
-                    <label for="mensaje">Mensaje</label>    
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>      
-
-                    <input type="submit" value="Enviar">    
-                    <input type="reset" value="Limpiar"> 
-                </form>
-            </section>
-        </main>
+        <p class="text"><span>-Correo:</span> micorreo@correo.com</p>        
+        <p class="text"><span>-Teléfono:</span> 3333-333333</p>
         
-        <footer>
-            <div class="footer">
-                <img class="footer__img" src="assets/img/footer.jpeg" alt="pie_de_pagina">
-                <p class="footer__text">Copyright Tomás Fank©</p> 
-            </div>
-        </footer>
-    </div>
-    <!-- <script src="js/bootstrap.min.js"></script> -->
+        <h2 id="contactoh2">También podes escribirnos a través de este formulario:</h2>
+
+        <section class="form">
+            <form action="" class="contacto">
+                <label for="nombres">Nombre y Apellido</label>   
+                <input type="text" name="nombres" id="nombres"> 
+
+                <label for="correo">Correo electrónico</label>     
+                <input type="email" name="correo" id="correo">    
+
+                <label for="nombres">Celular</label>
+                <input type="text" name="celular" id="celular">
+                 
+                <label for="asunto">Asunto</label>  
+                <input type="text"> 
+                   
+                <label for="mensaje">Mensaje</label>    
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>      
+
+                <input type="submit" value="Enviar">    
+                <input type="reset" value="Limpiar"> 
+            </form>
+        </section>
+    </main>
+    
+    <footer class="p-5" style="background-color: #DFD8C3;">
+        <div class="text-center">
+            <img src="assets/img/footer.jpeg" alt="footer" width="150" height="150">
+        </div>
+        <p class="text-center">Copyright Tomás Fank©</p>
+    </footer>
+
+<script src="js/bootstrap.js"></script> 
 </body>
 </html>
