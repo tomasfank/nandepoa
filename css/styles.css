@@ -42,7 +42,7 @@
         font-size: 1.2rem;
         margin-top: 5px;
     }
-    
+
     #contactoh2{
         color: #2B5E32;
         text-shadow: 2px 2px 2px #2b5e325d;
@@ -96,6 +96,7 @@
 
     span{
         color: #2B5E32;
+        font-family: 'Short Stack', cursive;
         font-weight: bold;
     }
 }

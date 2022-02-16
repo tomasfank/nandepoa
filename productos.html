@@ -20,7 +20,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="row align-self-end">
+                  <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
                         <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -35,67 +36,222 @@
                         <a class="nav-link" href="contacto.html">Contacto</a>
                       </li>
                     </ul>
+                  </div>
                 </div>
             </div>
         </nav>
     </header> 
 
     <main>
-        <div class="container-fluid">
-            <div class="card-group w-75 mx-auto">
+        <div class="container-fluid pt-4">
+            <div class="row row-cols-1 row-cols-md-3 justify-content-md-center">
+              <div class="col">
                 <div class="card p-2 m-2 shadow-lg p-2 mb-5 bg-body rounded"> 
-                  <img src="https://picsum.photos/200/200" class="card-img-top foto" alt="producto1">
+                  <img src="assets/img/yerba-mate-arapegua.jpg" class="card-img-top foto" alt="yerba-mate-arapegua" width="406" height="305">
                   <div class="card-body">
-                    <h5 class="card-title">Producto 1</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, hic nesciunt assumenda similique asperiores id magnam molestias voluptas accusamus a ipsum eos doloribus molestiae perspiciatis eum odit, expedita reprehenderit cumque!</p>
-                    <a href="tienda.html" class="btn btn-success">Tienda</a>
-                  </div>
-                </div>
-                <div class="card p-2 m-2 shadow-lg p-2 mb-5 bg-body rounded">
-                  <img src="https://picsum.photos/200/200" class="card-img-top foto" alt="producto2">
-                  <div class="card-body">
-                    <h5 class="card-title">Producto 2</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, hic nesciunt assumenda similique asperiores id magnam molestias voluptas accusamus a ipsum eos doloribus molestiae perspiciatis eum odit, expedita reprehenderit cumque!</p>
-                    <a href="tienda.html" class="btn btn-success">Tienda</a>
-                  </div>
-                </div>
-                <div class="card p-2 m-2 shadow-lg p-2 mb-5 bg-body rounded">
-                  <img src="https://picsum.photos/200/200" class="card-img-top foto" alt="producto3">
-                  <div class="card-body">
-                    <h5 class="card-title">Producto 3</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, hic nesciunt assumenda similique asperiores id magnam molestias voluptas accusamus a ipsum eos doloribus molestiae perspiciatis eum odit, expedita reprehenderit cumque!</p>
-                    <a href="tienda.html" class="btn btn-success">Tienda</a>
+                    <h5 class="card-title">Yerba Mate Arapeguá</h5>
+                    <p class="card-text">Tiene un estacionamiento de 24 meses, lo que hace que tenga un sabor suave y añejado...</p>
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                      Leer más...
+                    </button>
+                    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Yerba Mate Arapeguá</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Tiene un estacionamiento de 24 meses, lo que hace que tenga un sabor suave y añejado. No provoca acidez y su sabor recuerda a cómo se hacía la yerba antes.
+                              <br>
+                              <br>
+                              El método agrícola empleado desarrolla un organismo productivo donde se logra la auto sustentabilidad integrando el suelo fértil, plantas vitales y animales en relación de bienestar con la naturaleza y el cosmos. Con preparados naturales promovemos sus fuerzas enriqueciendo las aptitudes de quién se relaciona con estos alimentos.
+                              <br>  
+                              <br>
+                              Nuestra cooperativa brinda al productor la posibilidad de desarrollarse integramente. Mediante el trabajo asociativo se logra dar valor agregado a la producción primaria diversificada, logrando de esta forma los diferentes productos elaborados de la línea Arapeguá.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-          </div>
 
-        <div class="container-fluid">
-            <div class="card-group w-75 mx-auto">
+              <div class="col">
+                <div class="card p-2 m-2 shadow-lg p-2 mb-5 bg-body rounded">
+                  <img src="assets/img/mermeladas.jpg" class="card-img-top foto" alt="mermeladas-y-conservas" width="406" height="305">
+                  <div class="card-body">
+                    <h5 class="card-title">Mermeladas y Conservas</h5>
+                    <p class="card-text">Contamos con una amplia variedad de dulces, mermeladas y conservas de la marca Güembé...
+                    </p>
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                      Leer más...
+                    </button>
+                    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Mermeladas y Conservas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Contamos con una amplia variedad de dulces, mermeladas y conservas de  la marca Güembé.
+                              <br>
+                              <br>
+                              Mermelada de Rosella, Mermelada de Mamón, Quinoto en almíbar, Quinoto al whisky, Jengibre al almíbar, Mamón en almíbar, Mermelada de citrus y mamón, Mermelada de maracuyá, Escabeche de Berenjena, Mermelada de Quinoto, Mermelada de Mora, Mermelada de Pera Arenosa, Mermelada de Guayaba.
+                              <br>
+                              <br>
+                              Estos productos son elaborados por socios de la cooperativa, las recetas han sido perfeccionadas con la práctica y el tiempo siempre buscando lograr un producto artesanal y de muy buena calidad, utilizando ingredientes de cultivo propio e insumos como azúcar orgánica. Las mermeladas se elaboran con 100% de fruta madura en planta sin agregados de conservantes ni aditivos sintéticos.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+
+              <div class="col">
+                <div class="card p-2 m-2 shadow-lg p-2 mb-5 bg-body rounded">
+                  <img src="assets/img/jugos.jpg" class="card-img-top foto" alt="jugos" width="406" height="305">
+                  <div class="card-body">
+                    <h5 class="card-title">Jugos Orgánicos</h5>
+                    <p class="card-text">Jugos orgánicos bebibles y para diluir elaborados a base de fruta exprimida y azúcar orgánica...</p>
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                      Leer más...
+                    </button>
+                    <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Jugos Orgánicos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Jugos orgánicos bebibles y para diluir elaborados a base de fruta exprimida y azúcar orgánica.
+                              Tienen una duración de un año desde su elaboración y conservan el sabor auténtico de los cítricos. Al diluir rinden de dos a tres litros. Ideales para el verano, se pueden usar para preparar tragos, refrescos y postres. El jugo de limón es el único que no contiene azúcar por lo que puede usarse como condimento para ensaladas.
+                              <br>
+                              <br>
+                              Certificado por Orgánico Argentina y Letis S.A.
+                              <br>
+                              <br>
+                              Elaborado con fruta biodinámica.
+                              <br>
+                              <br> 
+                              Producido bajo principios de cuidados del medio ambiente y la equidad social de los productores familiares.
+                              <br>
+                              <br>
+                              Posee el sabor de la fruta fresca, por ser puro jugo exprimido.
+                              <br>
+                              <br>
+                              Agitar antes de usar. Una vez abierto conservar refrigerado.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="container-fluid pb-4">
+            <div class="row row-cols-1 row-cols-md-3 justify-content-md-center">
+              <div class="col">
                 <div class="card p-2 m-2 shadow-lg p-2 mb-5 bg-body rounded"> 
-                  <img src="https://picsum.photos/200/200" class="card-img-top foto" alt="producto4">
+                  <img src="assets/img/medicinas-y-cosmeticos.jpeg" class="card-img-top foto" alt="medicinas-y-cosmeticos" width="406" height="305">
                   <div class="card-body">
-                    <h5 class="card-title">Producto 4</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, hic nesciunt assumenda similique asperiores id magnam molestias voluptas accusamus a ipsum eos doloribus molestiae perspiciatis eum odit, expedita reprehenderit cumque!</p>
-                    <a href="tienda.html" class="btn btn-success">Tienda</a>
+                    <h5 class="card-title">Medicinas y cosméticos</h5>
+                    <p class="card-text">Desde el año 2010 venimos desarrollando una línea de productos medicinales y cosméticos...</p>
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                      Leer más...
+                    </button>
+                    <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Productos medicinales y cosméticos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Desde el año 2010 venimos desarrollando una línea de productos medicinales y cosméticos a base de plantas medicinales las que son cultivadas en las chacras de los socios de la cooperativa y algunas de recolección silvestres.
+                              <br>
+                              <br>
+                              Actualmente elaboramos 17 tipos de tinturas madre, 2 jarabes, 3 cremas, y 2 lociones. Utilizamos el calendario biodinámico para el cultivo y recolección de las plantas, buscando siempre la mejor calidad de materia prima para lograr un producto seguro y efectivo.
+                              <br>
+                              <br>
+                              Tintura de Echinacea <br>
+                              Tintura de Hypericum <br>
+                              Tintura de Achicoria <br>
+                              Tintura de Gotas Amargas <br>
+                              Tintura de Briophyllum <br>
+                              Tintura de Melissa o Toronjil <br>
+                              Tintura adelgazante <br>
+                              Tintura de Cola de caballo <br>
+                              Tintura de Moringa <br>
+                              Tintura de Graviola <br>
+                              Tintura de Diente de León <br>
+                              Tintura de Ginkgo Biloba <br>
+                              Tintura de Propóleo <br>
+                              Tintura de Raíz de Ortiga <br>
+                              Tintura de Cangorosa <br>
+                              Jarabe Antitusivo <br>
+                              Jarabe Fortificante <br>
+                              Antiparasitario/Karé <br>
+                              Crema de Propóleo <br>
+                              Crema de Caléndula <br>
+                              Crema para Psoriasis <br>
+                              Loción calmante para picaduras <br>
+                              Repelente Natural contra Insectos <br>                         
+                              
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
+               
+              <div class="col">
                 <div class="card p-2 m-2 shadow-lg p-2 mb-5 bg-body rounded">
-                  <img src="https://picsum.photos/200/200" class="card-img-top foto" alt="producto5">
+                  <img src="assets/img/jenycur.jpg" class="card-img-top foto" alt="jengibre-y-curcuma" width="406" height="305">
                   <div class="card-body">
-                    <h5 class="card-title">Producto 5</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, hic nesciunt assumenda similique asperiores id magnam molestias voluptas accusamus a ipsum eos doloribus molestiae perspiciatis eum odit, expedita reprehenderit cumque!</p>
-                    <a href="tienda.html" class="btn btn-success">Tienda</a>
+                    <h5 class="card-title">Jengibre y Cúrcuma</h5>
+                    <p class="card-text">Estos cultivos se desarrollan muy bien en Misiones y con ello elaboramos jengibre en polvo...</p>
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+                      Leer más...
+                    </button>
+                    <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Yerba Mate Arapeguá</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Estos cultivos se desarrollan muy bien en Misiones y con ello elaboramos jengibre en polvo y confitado y cúrcuma en polvo. Estos productos tienen múltiples usos tanto en el campo medicinal como en el culinario. En temporada también comercializamos las raíces frescas.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="card p-2 m-2 shadow-lg p-2 mb-5 bg-body rounded">
-                  <img src="https://picsum.photos/200/200" class="card-img-top foto" alt="producto6">
-                  <div class="card-body">
-                    <h5 class="card-title">Producto 6</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, hic nesciunt assumenda similique asperiores id magnam molestias voluptas accusamus a ipsum eos doloribus molestiae perspiciatis eum odit, expedita reprehenderit cumque!</p>
-                    <a href="tienda.html" class="btn btn-success">Tienda</a>
-                  </div>
-                </div>
+              </div>      
             </div>
         </div>
     </main>
