@@ -21,3 +21,9 @@ beta 1.1
 -Agregué un cartel de "error" al botón "comprar", sólo para darle una función a dicho botón hasta implementar un "Carrito". 
 -Modifique la disposición del texto en "nosotros" y cambié los margenes de los elementos. 
 -Ahora la imagen de "index" se oculta en tamaños de pantalla pequeños.  
+
+beta 1.2
+-Elimine las tarjetas del "index" y las reemplace por un diseño de imagen y contenido en columnas.
+-Agregué una barra de navegación en el footer.
+-Hice bordes más transparentes en las tarjetas de "productos" y "tienda".
+-Cambie la fuente del texto en "nosotros". 
