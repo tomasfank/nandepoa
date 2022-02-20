@@ -1,0 +1,25 @@
+{
+  "name": "nandepoa",
+  "version": "1.0.0",
+  "description": "Sitio web de tienda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasfank/nandepoa.git"
+  },
+  "author": "Tomás Fank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasfank/nandepoa/issues"
+  },
+  "homepage": "https://github.com/tomasfank/nandepoa#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
