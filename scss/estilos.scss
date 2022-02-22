@@ -2,10 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
-// variables
-$color-fuente: #2B5E32;
-$fuente: 'ABeeZee', sans-serif; 
-$texto-sombras: 2px 2px 2px #2b5e324d;
+// import
+@import 'variables';
 
 
 *{
@@ -31,6 +29,27 @@ nav{
         }
     }
 }
+
+.hover{
+    opacity: 0;
+    &:hover{
+        transition-duration: 1s;
+        background-color: rgba(0, 0, 0, 0.699);
+        opacity: 1;
+    }
+}
+
+
+
+.texto{
+    font-family: $fuente;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+
+
+
 
 /* Celular */
 @media only screen and (min-width: 0px) and (max-width: 920px){
@@ -124,10 +143,14 @@ nav{
     }
 }
 
+
+
 /* Computadora */
 @media only screen and (min-width: 920px){
 
     /* Header + Navegador */
+
+
 
     nav{
         ul{
@@ -188,7 +211,7 @@ nav{
     }
     
     .container-index{
-        background-color: #D8DFC3;
+        background-color: #ada793;
         border-radius: 5px;
         .texto-index{
             font-family: $fuente;
@@ -197,11 +220,7 @@ nav{
         }
     }
 
-    .texto-nosotros{
-        font-family: $fuente;
-        text-align: justify;
-        font-size: 1.3rem;
-    }
+    
 
     .form{
         width: 400px;

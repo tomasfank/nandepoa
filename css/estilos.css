@@ -16,6 +16,18 @@ nav ul {
     text-shadow: 2px 2px 2px #2b5e324d;
     margin-bottom: 0; }
 
+.hover {
+  opacity: 0; }
+  .hover:hover {
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.699);
+    opacity: 1; }
+
+.texto {
+  font-family: "ABeeZee", sans-serif;
+  text-align: justify;
+  font-size: 1.3rem; }
+
 /* Celular */
 @media only screen and (min-width: 0px) and (max-width: 920px) {
   nav ul li {
@@ -130,16 +142,12 @@ nav ul {
     padding: 40px 10px 10px 10px;
     font-size: 1.3rem; }
   .container-index {
-    background-color: #D8DFC3;
+    background-color: #ada793;
     border-radius: 5px; }
     .container-index .texto-index {
       font-family: "ABeeZee", sans-serif;
       font-size: 1.3rem;
       text-align: justify; }
-  .texto-nosotros {
-    font-family: "ABeeZee", sans-serif;
-    text-align: justify;
-    font-size: 1.3rem; }
   .form {
     width: 400px;
     border: solid;

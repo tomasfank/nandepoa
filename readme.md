@@ -27,3 +27,11 @@ beta 1.2
 -Agregué una barra de navegación en el footer.
 -Hice bordes más transparentes en las tarjetas de "productos" y "tienda".
 -Cambie la fuente del texto en "nosotros". 
+
+
+beta 1.3
+-Traslade el carrusel de "nosotros" a "index".
+-Trsalade la imagen de "index" a "nosotros".
+-Hice cambios en las tarjetas de "index" y les agregué un efecto "hover".
+-Hice cambios en el "logo" del header.
+-Añadí texto en "index.html" y cambie el "h1" por una imagen con el nombre del emprendimiento.
