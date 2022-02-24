@@ -27,6 +27,7 @@ beta 1.2
 -Agregué una barra de navegación en el footer.
 -Hice bordes más transparentes en las tarjetas de "productos" y "tienda".
 -Cambie la fuente del texto en "nosotros". 
+-Agregué un ".gitignore" para evitar subir archivos innecesarios. 
 
 
 beta 1.3
@@ -35,3 +36,6 @@ beta 1.3
 -Hice cambios en las tarjetas de "index" y les agregué un efecto "hover".
 -Hice cambios en el "logo" del header.
 -Añadí texto en "index.html" y cambie el "h1" por una imagen con el nombre del emprendimiento.
+-Cree el archivo "_main.scss" y "_variables.scss".
+-Elimine y cree un nuevo formulario en "contacto" utilizando Bootstrap.
+

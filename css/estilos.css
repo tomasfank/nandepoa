@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -7,178 +8,157 @@
 a {
   text-decoration: none; }
 
+.btn--verde {
+  background-color: #2B5E32;
+  color: white; }
+
+.btn--rojo {
+  background-color: #dd1a1a;
+  color: white; }
+
+.titulos {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #2B5E32;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #2b5e324d;
+  margin: 3.5rem; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .titulos {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .titulos {
+      font-size: 2rem; } }
+  @media (min-width: 992px) {
+    .titulos {
+      font-size: 2.5rem; } }
+
 nav ul {
   list-style: none;
   text-align: center;
   font-size: 0; }
-  nav ul li a {
-    color: #2B5E32;
-    text-shadow: 2px 2px 2px #2b5e324d;
-    margin-bottom: 0; }
-
-.hover {
-  opacity: 0; }
-  .hover:hover {
-    transition-duration: 1s;
-    background-color: rgba(0, 0, 0, 0.699);
-    opacity: 1; }
-
-.texto {
-  font-family: "ABeeZee", sans-serif;
-  text-align: justify;
-  font-size: 1.3rem; }
-
-/* Celular */
-@media only screen and (min-width: 0px) and (max-width: 920px) {
   nav ul li {
     display: inline-block;
-    font-size: 1rem;
-    font-family: "ABeeZee", sans-serif;
-    font-weight: bold;
-    padding: 5px 10px 5px 10px;
-    margin: 5px 5px 5px 5px; }
-  h1 {
-    text-align: center;
-    font-weight: bold;
-    color: #2B5E32;
-    text-shadow: 2px 2px 2px #2b5e324d;
-    font-family: "ABeeZee", sans-serif;
-    font-size: 1.2rem;
-    margin-top: 5px; }
-  #contactoh2 {
-    color: #2B5E32;
-    text-shadow: 2px 2px 2px #2b5e324d;
-    font-family: "ABeeZee", sans-serif;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    font-size: 1rem; }
-  .container-index {
-    background-color: #D8DFC3;
-    border-radius: 5px; }
-    .container-index .texto-index {
-      font-family: "ABeeZee", sans-serif;
-      font-size: 1.3rem;
-      text-align: justify; }
-  .form {
-    width: 400px;
-    border: solid;
-    margin: 30px 20px 10px 0px;
-    border-color: rgba(0, 0, 0, 0.2);
-    border-width: 1px;
-    box-shadow: 3px 3px 15px #cab882;
-    border-radius: 5px; }
-    .form .contacto {
-      padding: 0.8rem;
-      overflow: hidden;
-      color: #2B5E32;
-      font-family: "ABeeZee", sans-serif; }
-      .form .contacto label, .form .contacto input, .form .contacto textarea {
-        display: block;
-        width: 100%;
-        margin-bottom: 5px; }
-      .form .contacto label {
-        font-weight: 500; }
-      .form .contacto input, .form .contacto textarea {
-        font-family: "ABeeZee", sans-serif;
-        border: none;
-        border-bottom: 2px solid #DFD8C3;
-        font-size: 20px; }
-      .form .contacto input[type="submit"]:hover {
-        background-color: #2b5e32a4; }
-      .form .contacto input[type="reset"]:hover {
-        background-color: rgba(255, 0, 0, 0.616); }
-  .navfoot {
-    color: #2B5E32;
-    font-family: "ABeeZee", sans-serif;
-    font-weight: bold; } }
-
-/* Computadora */
-@media only screen and (min-width: 920px) {
-  /* Header + Navegador */
-  nav ul li {
-    display: inline-block;
-    font-size: 1.2rem;
-    font-family: "ABeeZee", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: bold;
     padding: 5px 10px 5px 10px;
     margin: 5px 5px 5px 5px;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    overflow: hidden; }
-    nav ul li:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: #2B5E32;
-      height: 4px;
-      -webkit-transform: translateY(4px);
-      transform: translateY(4px);
-      -webkit-transition-property: transform;
-      transition-property: transform;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out; }
-    nav ul li:hover:before, nav ul li :focus:before, nav ul li :active:before {
-      -webkit-transform: translateY(0);
-      transform: translateY(0); }
-  h1 {
-    text-align: center;
-    font-weight: bold;
-    color: #2B5E32;
-    text-shadow: 2px 2px 2px #2b5e324d;
-    font-family: "ABeeZee", sans-serif; }
-  #contactoh2 {
-    color: #2B5E32;
-    text-shadow: 2px 2px 2px #2b5e324d;
-    font-family: "ABeeZee", sans-serif;
-    margin: 10px 10px 10px 10px;
-    padding: 40px 10px 10px 10px;
-    font-size: 1.3rem; }
-  .container-index {
-    background-color: #ada793;
-    border-radius: 5px; }
-    .container-index .texto-index {
-      font-family: "ABeeZee", sans-serif;
-      font-size: 1.3rem;
-      text-align: justify; }
-  .form {
-    width: 400px;
-    border: solid;
-    margin: 40px 0px 10px 20px;
-    border-color: rgba(0, 0, 0, 0.2);
-    border-width: 1px;
-    box-shadow: 3px 3px 15px #cab882;
-    border-radius: 5px; }
-    .form .contacto {
-      padding: 0.8rem;
-      overflow: hidden;
+    vertical-align: middle; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      nav ul li {
+        font-size: 0.8rem; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      nav ul li {
+        font-size: 1rem; } }
+    @media (min-width: 992px) {
+      nav ul li {
+        font-size: 1.2rem;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        overflow: hidden; }
+        nav ul li:before {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: #2B5E32;
+          height: 4px;
+          -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+          -webkit-transition-property: transform;
+          transition-property: transform;
+          -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+          -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out; }
+        nav ul li:hover:before, nav ul li :focus:before, nav ul li :active:before {
+          -webkit-transform: translateY(0);
+          transform: translateY(0); } }
+    nav ul li a {
       color: #2B5E32;
-      font-family: "ABeeZee", sans-serif; }
-      .form .contacto label, .form .contacto input, .form .contacto textarea {
-        display: block;
-        width: 100%;
-        margin-bottom: 5px; }
-      .form .contacto label {
-        font-weight: 500; }
-      .form .contacto input, .form .contacto textarea {
-        font-family: "ABeeZee", sans-serif;
-        border: none;
-        border-bottom: 2px solid #DFD8C3;
-        font-size: 20px; }
-      .form .contacto input[type="submit"]:hover {
-        background-color: #2b5e32a4; }
-      .form .contacto input[type="reset"]:hover {
-        background-color: rgba(255, 0, 0, 0.616); }
-  .navfoot {
+      text-shadow: 2px 2px 2px #2b5e324d;
+      margin-bottom: 0; }
+
+.hover {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .hover:hover {
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.699);
+    opacity: 1; }
+
+.texto, .contacto {
+  font-family: "ABeeZee", sans-serif;
+  text-align: justify; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .texto, .contacto {
+      font-size: 1rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .texto, .contacto {
+      font-size: 1.2rem; } }
+  @media (min-width: 992px) {
+    .texto, .contacto {
+      font-size: 1.4rem; } }
+
+.contacto {
+  text-align: center; }
+  .contacto span {
     color: #2B5E32;
-    font-family: "ABeeZee", sans-serif;
     font-weight: bold; }
-    .navfoot:hover {
-      color: #1e4122; } }
+
+.mensaje .mensaje__titulo {
+  font-family: "Poppins", sans-serif; }
+
+.mensaje .mensaje__texto {
+  font-family: "ABeeZee", sans-serif; }
+
+.tarjeta .tarjeta__titulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #2B5E32; }
+
+.tarjeta .tarjeta__texto {
+  font-family: "ABeeZee", sans-serif; }
+
+footer {
+  background-color: #DFD8C3; }
+  footer .text-center {
+    padding-top: 40px; }
+  footer .navfoot {
+    color: #2B5E32;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      footer .navfoot {
+        font-size: 0.8rem;
+        padding: 20px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      footer .navfoot {
+        font-size: 1rem; } }
+    @media (min-width: 992px) {
+      footer .navfoot {
+        font-size: 1.2rem; }
+        footer .navfoot:hover {
+          color: #1e4122; } }
+  footer .firma_footer {
+    margin: 0;
+    padding: 5px;
+    color: #2B5E32;
+    text-shadow: 2px 2px 2px #2b5e324d; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      footer .firma_footer {
+        font-size: 0.7rem; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      footer .firma_footer {
+        font-size: 0.8rem; } }
+    @media (min-width: 992px) {
+      footer .firma_footer {
+        font-size: 0.9rem; } }
