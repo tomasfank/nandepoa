@@ -39,3 +39,6 @@ beta 1.3
 -Cree el archivo "_main.scss" y "_variables.scss".
 -Elimine y cree un nuevo formulario en "contacto" utilizando Bootstrap.
 
+beta 1.4
+-Añadí un efecto "zoom" a las imagenes de "Productos"
+-Añadí un enlace a "inicio" en las barra de navegación, por lo que ahora se puede acceder al "index.html" a través de este y también presionando el logo. 

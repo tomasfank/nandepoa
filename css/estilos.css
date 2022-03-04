@@ -113,6 +113,14 @@ nav ul {
     color: #2B5E32;
     font-weight: bold; }
 
+.zoom {
+  overflow: hidden; }
+  .zoom .foto {
+    transition: 0.5s;
+    object-fit: cover; }
+    .zoom .foto:hover {
+      transform: scale(1.2); }
+
 .mensaje .mensaje__titulo {
   font-family: "Poppins", sans-serif; }
 
