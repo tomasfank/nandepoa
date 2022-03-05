@@ -58,27 +58,29 @@
         <h2 class="titulos animate__animated animate__fadeInUp">También podes escribirnos a través de este formulario:</h2>
 
         <div class="container mt-5 mb-5 animate__animated animate__fadeInUp">
-            <div class="container mb-3">
-                <label for="FormControlInput1" class="form-label">Nombre y Apellido</label>
-                <input type="text" class="form-control" id="FormControlInput1" placeholder="NOMBRE Y APELLIDO">
-            </div>
-            <div class="container mb-3">
-                <label for="FormControlInput1" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="FormControlInput1" placeholder="CORREO">
-            </div>
-            <div class="container mb-3">
-                <label for="FormControlInput1" class="form-label">Número de Teléfono</label>
-                <input type="text" class="form-control" id="FormControlInput1" placeholder="TELEFONO">
-            </div>
-            <div class="container mb-3">
-                <label for="FormControlInput1" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="FormControlInput1" placeholder="ASUNTO">
-            </div>
-            <div class="container mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Escriba su mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-outline-success m-3">Enviar</button>
+            <form action="">
+                <div class="container mb-3">
+                    <label for="nombre_apellido" class="form-label">Nombre y Apellido</label>
+                    <input type="text" required class="form-control" id="nombre_apellido" placeholder="NOMBRE Y APELLIDO">
+                </div>
+                <div class="container mb-3">
+                    <label for="correo" class="form-label">Correo electrónico</label>
+                    <input type="email" required class="form-control" id="correo" placeholder="CORREO">
+                </div>
+                <div class="container mb-3">
+                    <label for="telefono" class="form-label">Número de Teléfono</label>
+                    <input type="text" required class="form-control" id="telefono" placeholder="TELEFONO">
+                </div>
+                <div class="container mb-3">
+                    <label for="asunto" class="form-label">Asunto</label>
+                    <input type="text" required class="form-control" id="asunto" placeholder="ASUNTO">
+                </div>
+                <div class="container mb-3">
+                    <label for="mensaje" class="form-label">Escriba su mensaje</label>
+                    <textarea class="form-control" required id="mensaje" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-success m-3">Enviar</button>
+            </form>
         </div>
     </main>
     

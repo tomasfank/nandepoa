@@ -3,7 +3,7 @@ De ahora en adelante publicare los cambios de la página en este documento, por 
 rama_prueba (grabo cambios en mi rama de prueba)
 -Corregí la posición del formulario en la versión mobile.
 -Quite el efecto a las cards "hover" de la versiona mobile. 
--Agregue animacion "aparecer".
+-Añadí animacion "aparecer".
 
 beta 1.0 (agregue bootstrap a mi proyecto para mershearlo en la rama main)
 -Quité animación "aparecer".
@@ -27,7 +27,7 @@ beta 1.2
 -Agregué una barra de navegación en el footer.
 -Hice bordes más transparentes en las tarjetas de "productos" y "tienda".
 -Cambie la fuente del texto en "nosotros". 
--Agregué un ".gitignore" para evitar subir archivos innecesarios. 
+-Añadí un ".gitignore" para evitar subir archivos innecesarios. 
 
 
 beta 1.3
@@ -42,3 +42,4 @@ beta 1.3
 beta 1.4
 -Añadí un efecto "zoom" a las imagenes de "Productos"
 -Añadí un enlace a "inicio" en las barra de navegación, por lo que ahora se puede acceder al "index.html" a través de este y también presionando el logo. 
+-Añadí animaciones al contenido de todas las páginas utilizando "animated.css".
